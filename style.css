@@ -1,0 +1,64 @@
+#row1{
+display: inline;
+}
+
+body{
+    background: linear-gradient(pink, blue, purple)
+}
+
+#heading{
+    font-size: 30px;
+    font-family: fantasy;
+    width: 80%;
+}
+
+#main{
+border: groove 10px gold;
+padding: 10px;
+}
+
+#objects{
+    font-family: cursive;
+    font-size: 20px;
+color: antiquewhite;
+}
+
+#camera{
+    height: 300px;
+    width: 350px;
+    border: silver 4px inset;
+}
+
+#result{
+    height: 300px;
+    width: 350px;
+    border: greenyellow 4px outset;
+}
+
+.image-section{
+    display:flex;
+    justify-content:center;
+    height: 350px;
+}
+
+.first-image{
+    margin: 100px;
+}
+
+#result_name, #result_accuracy{
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: black;
+}
+
+.para{
+color: rgb(0, 255, 234);
+font-family: 'Redressed', cursive;
+font-size: 30px;
+}
+
+.ob{
+    color: rgb(240, 184, 184);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px; 
+}
